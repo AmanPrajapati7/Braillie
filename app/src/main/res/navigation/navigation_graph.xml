@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.braillie.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_textRcognitionFragment"
+            app:destination="@id/textRcognitionFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_imageRecognitionFragment2"
+            app:destination="@id/imageRecognitionFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/textRcognitionFragment"
+        android:name="com.example.braillie.TextRcognitionFragment"
+        android:label="fragment_text_rcognition"
+        tools:layout="@layout/fragment_text_rcognition" />
+    <fragment
+        android:id="@+id/imageRecognitionFragment2"
+        android:name="com.example.braillie.ImageRecognitionFragment"
+        android:label="ImageRecognitionFragment"
+        tools:layout="@layout/fragment_image_recognition" />
+</navigation>

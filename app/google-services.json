@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "743655445896",
+    "project_id": "braillie",
+    "storage_bucket": "braillie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743655445896:android:52b68d3ab577f266a9d63d",
+        "android_client_info": {
+          "package_name": "com.example.braillie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743655445896-8nhunb9hr8ulqrbu1dvnfp734t19l16n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.braillie",
+            "certificate_hash": "47c2be7a2491df965f7bdc5984b1713bfde67274"
+          }
+        },
+        {
+          "client_id": "743655445896-5vlfnp20ugruh7t8vch06ppurvjapngf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4J_gEIFhQxEn0m4WIxOxBpiSniLQkSj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743655445896-5vlfnp20ugruh7t8vch06ppurvjapngf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
